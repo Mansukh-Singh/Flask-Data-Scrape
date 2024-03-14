@@ -1,0 +1,92 @@
+body {
+    background: linear-gradient(to bottom,rgb(0, 0, 0),rgb(109, 109, 125));
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-attachment: fixed;
+}
+
+.navbar {
+    background-color: #878787; /* White background color */
+    padding: 20px 30px; 
+    text-align: center;
+}
+
+.navbar span {
+    font-size: 8vh;
+}
+
+.table {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    padding-top: 6vh;
+}
+
+table tbody {
+    background-color: rgba(255, 145, 0, 0.678);
+}
+
+.td {
+    border-radius: 5px;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.th {
+    border-radius: 5px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.book-button {
+    padding-top: 4vh;
+    display: flex;
+    justify-content:center;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.book-button button {
+    margin-left: 3vh;
+    margin-right: 3vh;
+    padding: 1vh;
+    width:20vh;
+    height:10vh;
+    border-radius: 10px;
+    border-color: rgb(255, 115, 0);
+    border-width: 0.6vh;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'sans-serif';
+    background-color: rgba(240, 248, 255, 0.737);
+}
+
+.mongoclient {
+    display: flex;
+    justify-content: center;
+    padding-top: 5vh;
+}
+
+.mongoclient button {
+    margin-left: 3vh;
+    margin-right: 3vh;
+    padding: 1vh;
+    width:40vh;
+    height:10vh;
+    border-radius: 10px;
+    border-color: rgb(38, 255, 0);
+    border-width: 0.8vh;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'sans-serif';
+    background-color: rgba(240, 248, 255, 0.737);
+}
+
+.alert-message {
+    display:flex;
+    justify-content: center;
+    padding-top: 4vh;
+    color:aliceblue;
+    padding-bottom: -10vh;
+}
